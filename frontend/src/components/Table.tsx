@@ -1,7 +1,7 @@
 // import React from "react";
 import { useQuery } from "react-query";
 import axios from "axios";
-import { useState, useCallback } from "react";
+// import { useState, useCallback } from "react";
 
 type Inputs = {
   name: string,
