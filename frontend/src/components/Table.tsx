@@ -13,7 +13,7 @@ type Inputs = {
   salary:string
 }
 
-const URL = 'http://localhost:8000'
+const URL = 'https://task-mqhy.onrender.com'
 const Table = () => {
   const { data } = useQuery({
     queryFn: async () => {
